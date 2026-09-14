@@ -1,3 +1,34 @@
+### What this app does ?
+
+OfflineImage is an mobile application where you can store your pictures locally and can upload on server as well.
+it is use offline first approach , so if there is not network still you can click pictures and saved them locally and once internet came back ,
+pics will direclty upload on server.
+
+
+
+### Features
+ 1. Capture photo using device camera
+ 2. store locally and show on main UI in grid
+ 3. support offline photo storage
+ 4. detect internet connectivity
+ 5. prevent duplicate image to upload due to unique key
+ 6. delete local image after successful upload to save device storage
+ 7. display uploaded photos using server url
+ 8. using FastAPI , create APIs to upload image on server
+
+
+### Tech Stack
+ 1. React Native
+ 2. TypeScript
+ 3. React Native Vision Camera
+ 4. React Native FS
+ 5. Async Storage and NetInfo
+
+
+### Backend 
+ 1. FastAPI
+ 2. Python
+ 3. Uvicorn
 
 
 # Getting Started
@@ -77,37 +108,6 @@ When you want to forcefully reload, for example to reset the state of your app, 
 
 You've successfully run and modified your React Native App. :partying_face:
 
-### What this app does ?
-
-OfflineImage is an mobile application where you can store your pictures locally and can upload on server as well.
-it is use offline first approach , so if there is not network still you can click pictures and saved them locally and once internet came back ,
-pics will direclty upload on server.
-
-
-
-### Features
- 1. Capture photo using device camera
- 2. store locally and show on main UI in grid
- 3. support offline photo storage
- 4. detect internet connectivity
- 5. prevent duplicate image to upload due to unique key
- 6. delete local image after successful upload to save device storage
- 7. display uploaded photos using server url
- 8. using FastAPI , create APIs to upload image on server
-
-
-### Tech Stack
- 1. React Native
- 2. TypeScript
- 3. React Native Vision Camera
- 4. React Native FS
- 5. Async Storage and NetInfo
-
-
-### Backend 
- 1. FastAPI
- 2. Python
- 3. Uvicorn
 
 
 
